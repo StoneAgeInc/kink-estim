@@ -32,14 +32,14 @@
 #define MAX_PATTERN_ADJUST          0xFFF   // 4k of adjustment is probably enough
 #define MAX_PULSE_WIDTH             200     // in micro-seconds
 
-// #define CHANNEL_0_POWER             1
-// #define CHANNEL_1_POWER             1
-// #define CHANNEL_2_POWER             1
-// #define CHANNEL_3_POWER             1
+#define CHANNEL_1_POWER             1
+#define CHANNEL_2_POWER             1
+#define CHANNEL_3_POWER             1
+#define CHANNEL_4_POWER             1
 
-// #define DEFAULT_PULSE_DELAY         7000    // in micro-seconds
-// #define DEFAULT_PULSE_WIDTH         140     // in micro-seconds
-// #define DEFAULT_INTERPULSE_DELAY    0   // in micro-seconds, can be negative
+#define DEFAULT_PULSE_DELAY         7000    // in micro-seconds
+#define DEFAULT_PULSE_WIDTH         140     // in micro-seconds
+#define DEFAULT_INTERPULSE_DELAY    0   // in micro-seconds, can be negative
 
 // No TENS effect > ~500 Hz. Should probably also limit power delivery.
 #define MIN_PULSE_VALUE             2000 // Minimum initial pulse edge, in micro-seconds
@@ -89,10 +89,3 @@
 #define POWER_ENABLED 1
 
 #endif //APP_CONFIG_H
-#define CHANNEL_0_POWER 1
-#define CHANNEL_1_POWER 2
-#define CHANNEL_2_POWER 3
-#define CHANNEL_3_POWER 4
-#define DEFAULT_PULSE_DELAY 7000 // in micro-seconds
-#define DEFAULT_PULSE_WIDTH 140 // in micro-seconds
-#define DEFAULT_INTERPULSE_DELAY 0 // in micro-seconds, can be negative

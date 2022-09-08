@@ -89,10 +89,3 @@
 #define POWER_ENABLED 1
 
 #endif //APP_CONFIG_H
-#define CHANNEL_0_POWER 1
-#define CHANNEL_1_POWER 2
-#define CHANNEL_2_POWER 3
-#define CHANNEL_3_POWER 4
-#define DEFAULT_PULSE_DELAY 7000 // in micro-seconds
-#define DEFAULT_PULSE_WIDTH 140 // in micro-seconds
-#define DEFAULT_INTERPULSE_DELAY 0 // in micro-seconds, can be negative

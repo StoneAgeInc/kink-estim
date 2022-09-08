@@ -40,7 +40,7 @@
 #include "nrf_sdh.h"
 #endif
 
-#define TEST
+// #define TEST
 
 /**
  * @brief Function for assert macro callback.
@@ -221,6 +221,11 @@ int main(void) {
 
     test_controls();
 #endif
+
+    set_power(0, CHANNEL_0_POWER);
+    set_power(1, CHANNEL_1_POWER);
+    set_power(2, CHANNEL_2_POWER);
+    set_power(3, CHANNEL_3_POWER);
 
     while (true) {
         #if ENABLE_USB_SERIAL
